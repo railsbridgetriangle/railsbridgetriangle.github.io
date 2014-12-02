@@ -1,0 +1,16 @@
+.diversity {
+  @include padding(10em null);
+  background-image: image-url("diversity.png");
+  background-position: center;
+  background-size: cover;
+
+  h3 {
+    color: white;
+    font-size: em(32);
+  }
+
+  p {
+    color: rgba(white, 0.8);
+    font-size: em(18);
+  }
+}

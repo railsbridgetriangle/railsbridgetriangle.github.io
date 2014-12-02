@@ -1,7 +1,14 @@
+
 // Vendor
+@import url(http://fonts.googleapis.com/css?family=PT+Serif|Open+Sans);
 @import "vendor/normalize";
 @import "bourbon";
 @import "neat";
 
 @import "base/base";
-@import "global";
+
+@import "banner";
+@import "bar";
+@import "diversity";
+@import "footer";
+@import "next-workshop";

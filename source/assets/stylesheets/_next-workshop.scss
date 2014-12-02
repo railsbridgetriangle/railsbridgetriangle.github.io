@@ -1,0 +1,59 @@
+.next-workshop {
+  h3 {
+    background-color: $base-accent-color;
+    color: white;
+    font-family: $base-font-family;
+    font-size: 1em;
+    margin-bottom: 0;
+    padding: 1em 2em;
+  }
+}
+
+.workshop-summary {
+  @include clearfix;
+  background-color: white;
+  border-left: $base-border;
+  border-right: $base-border;
+  padding: 2em;
+
+  time {
+    display: block;
+    font-family: $header-font-family;
+    font-size: em(20);
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    font-size: em(14);
+  }
+}
+
+.workshop-rsvp {
+  @include transition(background, 0.15s);
+  background: $base-link-color;
+  border: 1px solid $hover-link-color;
+  box-shadow: 0 1px rgba(black, 0.15);
+  color: white;
+  display: inline-block;
+  float: right;
+  margin-top: 1em;
+  padding: 0.5em 2em;
+  position: relative;
+
+  &:hover,
+  &:focus {
+    background: $hover-link-color;
+    color: white;
+  }
+
+  &:active {
+    box-shadow: none;
+    top: 1px;
+  }
+}
+
+.workshop-map {
+  iframe {
+    @include size(100% 20em);
+  }
+}

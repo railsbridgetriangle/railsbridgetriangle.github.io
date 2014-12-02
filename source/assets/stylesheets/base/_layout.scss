@@ -1,0 +1,23 @@
+body {
+  @include outer-container;
+  background-color: $base-background-color;
+  max-width: $max-width + 14em;
+}
+
+article {
+  margin-bottom: 4em;
+}
+
+.container {
+  @include outer-container;
+}
+
+.content {
+  @include span-columns(2);
+  @include omega(2n);
+}
+
+.feature {
+  padding-top: 4em;
+  background: white;
+}
