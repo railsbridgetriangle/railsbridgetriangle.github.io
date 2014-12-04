@@ -10,12 +10,17 @@
     @include padding(18em null);
   }
 
+  h3 {
+    color: white;
+  }
+
   h2 {
     @include outer-container;
+    font-family: $decorative-font-family;
     font-size: em(36);
 
     @include media($medium-screen-up) {
-      font-size: em(48);
+      font-size: em(62);
     }
   }
 }

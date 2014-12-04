@@ -10,5 +10,9 @@
       try{Typekit.load();}catch(e){}
 
   %body{class: page_classes}
-    = yield
+    .outer-container
+      = partial "views/bar"
+      = yield
+      = partial "views/footer"
+
     = javascript_include_tag "https://code.jquery.com/jquery-2.1.1.min.js", "application"

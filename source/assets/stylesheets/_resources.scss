@@ -1,0 +1,46 @@
+.sticky-wrapper {
+  display: none;
+
+  @include media($medium-screen-up) {
+    @include span-columns(1);
+  }
+}
+
+.resources-sidebar {
+  a {
+    @include padding(0.5em null);
+    color: #ccc;
+    display: block;
+    font-weight: 800;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+      color: $base-font-color;
+    }
+  }
+}
+
+.resources-content {
+  @include media($medium-screen-up) {
+    @include span-columns(3);
+  }
+
+  p {
+    font-size: em(18);
+  }
+
+  ul, ol {
+    color: $light-font-color;
+    font-size: em(18);
+  }
+
+  ul {
+    @extend %default-ul;
+  }
+
+  ol {
+    @extend %default-ol;
+  }
+}

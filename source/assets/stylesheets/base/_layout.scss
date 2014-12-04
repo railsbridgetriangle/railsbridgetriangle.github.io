@@ -26,6 +26,10 @@ article {
   @include media($max-width-up) {
     @include padding(null none);
   }
+
+  &.text-container {
+    max-width: em(640);
+  }
 }
 
 .content {
@@ -38,4 +42,8 @@ article {
 .feature {
   background: white;
   padding-top: 4em;
+
+  .resources & {
+    border-bottom: $base-border;
+  }
 }

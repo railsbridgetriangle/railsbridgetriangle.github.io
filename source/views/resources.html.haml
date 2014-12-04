@@ -1,0 +1,119 @@
+---
+title: Resources - Triangle RailsBridge
+---
+
+.banner
+  %h2 Resources
+
+.feature
+  .container
+    %nav.resources-sidebar{data: {role: "sticky"}}
+      %ul{data: {role: "waypoints"}}
+        %li
+          = link_to "Community", "#community", data: {trigger: "community"}
+        %li
+          = link_to "Install your Tools", "#install", data: {trigger: "install"}
+        %li
+          = link_to "Learning Sequence", "#learning", data: {trigger: "learning"}
+        %li
+          = link_to "Tutorials", "#tutorials", data: {trigger: "tutorials"}
+        %li
+          = link_to "Classes", "#classes", data: {trigger: "classes"}
+        %li
+          = link_to "Bootcamps", "#bootcamps", data: {trigger: "bootcamps"}
+        %li
+          = link_to "Online Classes", "#classes", data: {trigger: "online"}
+    .resources-content
+      %article#community{data: {role: "waypoint"}}
+        %h3 Community
+        %p
+          The
+          = link_to "Triangle Ruby Bridage", "http://www.triangleruby.com/"
+          organizes
+          = link_to "monthly presentations", "http://www.meetup.com/raleighrb/events/past"
+          and occasional Hack Nights. Hack Nights always have a few volunteers
+          available specifically to help others.
+        %p
+          Visit
+          = link_to "the forum", "http://discourse.triangleruby.com/"
+          to find out more about community events and job openings.
+
+        %p
+          The Ruby community welcomes you.
+
+      %article#install{data: {role: "waypoint"}}
+        %h3 Install your tools
+        %p
+          It's customary to install Ruby on your own laptop, and we debated for
+          a long time before using a virtual machine. You can continue to use
+          the RailsBridge virtual machine if you wish, but we encourage you to
+          have your own set of tools.
+          #{link_to "The Ruby site offers several options on its installation page", "https://www.ruby-lang.org/en/installation"}.
+
+      %article#learning{data: {role: "waypoint"}}
+        %h3 Learning Sequence
+        %p
+          For a quick review of what we learned today, watch
+          #{link_to "Ruby in 100 Minutes", "http://tutorials.jumpstartlab.com/projects/ruby_in_100_minutes.html"}.
+        %p
+          Once you've got Ruby basics down, the best way to learn is to make a
+          practice project. Projects take you off the smooth path of a tutorial
+          and out into the exciting wild lands. Pick a problem you care about.
+          Start small and spiral out.
+        %p
+          Ruby on Rails is a web framework, that is, a set of libraries and tools
+          to make a dynamic website. Come to the RailsBridge Rails workshop to
+          learn more. If you want to get started on your own, thoughtbot's
+          = link_to "Ruby Learning Trail", "http://upcase.com/ruby"
+          maps out the route.
+
+      %article#tutorials{data: {role: "waypoint"}}
+        %h3 Tutorials
+        %p
+          There's a wealth of tutorials and resources for learning Ruby and
+          Rails.  Here are the ones we recommend starting with.
+        %ul
+          %li
+            = link_to "Ruby Koans", "http://rubykoans.com/"
+            are a set of puzzles that “walk you along the path to enlightenment
+            in order to learn Ruby. The goal is to learn the Ruby language,
+            syntax, structure, and some common functions and libraries.”
+          %li
+            = link_to "Code Wars", "http://www.codewars.com/"
+            is an online set of puzzles.
+          %li
+            = link_to "Learn to Program", "http://ruby-doc.com/docs/ProgrammingRuby/"
+            by Chris Pine is a good starting place for new programmers.
+          %li
+            #{link_to "Programming Ruby", "http://ruby-doc.com/docs/ProgrammingRuby/"},
+            a.k.a. “the Pickaxe Book”, is one of the most popular Ruby books.
+
+      %article#classes{data: {role: "waypoint"}}
+        %h3 Classes
+        %ul
+          %li
+            = link_to "Girl Develop It", "http://girldevelopit.com/chapters/raleigh-durham"
+            offers low-cost classes in programming and web design.
+
+      %article#bootcamps{data: {role: "waypoint"}}
+        %h3 Bootcamps
+        %p
+          Bootcamps are intensive full-time programs. There are several in our
+          area.
+        %ul
+          %li
+            = link_to "Tech Talent South", "http://techtalentsouth.com/"
+          %li
+            = link_to "Iron Yard", "http://theironyard.com/locations/raleigh-durham/"
+
+      %article#online{data: {role: "waypoint"}}
+        %h3 Online Classes
+        %ul
+          %li
+            = link_to "thoughtbot Upcase", "http://upcase.com/"
+          %li
+            = link_to "Thinkful", "http://thinkful.com/"
+          %li
+            = link_to "Programmer's video series", "http://pragmaticstudio.com/ruby"
+          %li
+            = link_to "Firehose Weekend Virtual Classes", "http://www.firehoseweekend.com/"

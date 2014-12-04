@@ -2,90 +2,71 @@
 title: Triangle RailsBridge
 ---
 
-.outer-container
-  .bar
-    .container
-      %h1
-        %span Triangle
-        RailsBridge
-      = link_to "#", class: "mobile-menu-toggle", :data => {:role => "mobile-menu-toggle"} do
-        = partial "icons/menu"
-        %span Menu
-      %nav.nav{data: {role: "menu"}}
-        = link_to "About", "#", class: "active nav-link"
-        = link_to "Resources", "#", class: "nav-link"
-        = link_to "Curriculum", "#", class: "nav-link"
+.banner
+  %h2 Empowering Women
+  %h3 with ruby
 
-  .banner
-    %h2 Increasing diversity in tech
-
-  .feature
-    .container
-      .content
-        %article
-          %h3 Empowering women with Ruby
-          %p
-            Do you dream of someday writing software that helps people and
-            improves the world?
-          %p
-            Led by an all-volunteer team of seasoned, enthusiastic Ruby and
-            Rails developers, the workshop introduces women of all backgrounds
-            to the concepts, tools, and techniques of Ruby and Rails
-            development. Our audience is those with no or little programming
-            experience.
-          %p
-            We welcome you to the Triangle Ruby community. Whatever your goal is
-            in learning to program, we hope to connect you with the tools to
-            take the next step.
-
-        %article
-          %h3 Code of Conduct
-          %p
-            Triangle RailsBridge is dedicated to providing a harassment-free
-            experience for everyone regardless of gender, sexual orientation,
-            disability, physical appearance, body size, race, or religion.
-          %p
-            We will not tolerate harassment of workshop participants in any
-            form, be it verbal comments (said aloud or typed into a
-            backchannel), imagery, deliberate intimidation, stalking, following,
-            harassing photography or recording, sustained disruption of
-            lectures, inappropriate physical contact, and unwelcome sexual
-            attention.
-          %p
-            Workshop participants violating these rules may be sanctioned or
-            expelled from the event at the discretion of the organizers.
-          %p
-            If you are being harassed, see someone else being harassed, or have
-            any other concerns on-site please contact one of the workshop
-            organizers or teaching assistants immediately.
-
-      .content.next-workshop
-        %h3 Next Workshop
-        .workshop-summary
-          %time January 29, 2014
-          %p
-            RailsBridge workshops are a free and fun way to get started or level
-            up with Rails, Ruby, and other web technologies. Our events focus on
-            increasing diversity in tech, so that people of all backgrounds can
-            feel welcome and comfortable in our industry.
-          = link_to "Register for Free", "#", class: "workshop-rsvp"
-        .workshop-map
-          %iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3228.1071263754443!2d-78.90488!3d35.99324899999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace5cbe091e0bf%3A0x4a4504bd1ef4f3d1!2sAmerican+Tobacco+Campus!5e0!3m2!1sen!2sus!4v1417556911788" frameborder="0" style="border:0")
-
-  .diversity
-    .container
-      .content
-        %h3 Promoting Diversity
+.feature
+  .container
+    .content
+      %article
+        %h3 Increasing diversity in tech
         %p
-          The Triangle software scene needs more women. So this workshop is for
-          women and their guests. You should identify as a woman, or be the male
-          guest of a woman who is attending.
+          Do you dream of someday writing software that helps people and
+          improves the world?
         %p
-          We support mothers who want to code. We will provide childcare to
-          those who need it. Please let us know if you want to use these
-          services on the application form.
+          Led by an all-volunteer team of seasoned, enthusiastic Ruby and
+          Rails developers, the workshop introduces women of all backgrounds
+          to the concepts, tools, and techniques of Ruby and Rails
+          development. Our audience is those with no or little programming
+          experience.
+        %p
+          We welcome you to the Triangle Ruby community. Whatever your goal is
+          in learning to program, we hope to connect you with the tools to
+          take the next step.
 
-  %footer
-    .container
-      %p Get in touch:
-      = link_to "info@trianglerailsbridge.com", "mailto:info@trianglerailsbridge.com"
+      %article
+        %h3 Code of Conduct
+        %p
+          Triangle RailsBridge is dedicated to providing a harassment-free
+          experience for everyone regardless of gender, sexual orientation,
+          disability, physical appearance, body size, race, or religion.
+        %p
+          We will not tolerate harassment of workshop participants in any
+          form, be it verbal comments (said aloud or typed into a
+          backchannel), imagery, deliberate intimidation, stalking, following,
+          harassing photography or recording, sustained disruption of
+          lectures, inappropriate physical contact, and unwelcome sexual
+          attention.
+        %p
+          Workshop participants violating these rules may be sanctioned or
+          expelled from the event at the discretion of the organizers.
+        %p
+          If you are being harassed, see someone else being harassed, or have
+          any other concerns on-site please contact one of the workshop
+          organizers or teaching assistants immediately.
+
+    .content.next-workshop
+      %h3 Next Workshop
+      .workshop-summary
+        %time January 29, 2014
+        %p
+          RailsBridge workshops are a free and fun way to get started or level
+          up with Rails, Ruby, and other web technologies. Our events focus on
+          increasing diversity in tech, so that people of all backgrounds can
+          feel welcome and comfortable in our industry.
+        = link_to "Register for Free", "#", class: "workshop-rsvp"
+      .workshop-map
+        %iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3228.1071263754443!2d-78.90488!3d35.99324899999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89ace5cbe091e0bf%3A0x4a4504bd1ef4f3d1!2sAmerican+Tobacco+Campus!5e0!3m2!1sen!2sus!4v1417556911788" frameborder="0" style="border:0")
+
+.diversity
+  .container
+    %h3 Promoting Diversity
+    %p
+      The Triangle software scene needs more women. So this workshop is for
+      women and their guests. You should identify as a woman, or be the male
+      guest of a woman who is attending.
+    %p
+      We support mothers who want to code. We will provide childcare to
+      those who need it. Please let us know if you want to use these
+      services on the application form.

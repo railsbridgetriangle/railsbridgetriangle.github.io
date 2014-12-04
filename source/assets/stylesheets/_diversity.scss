@@ -10,10 +10,12 @@
 
   h3 {
     color: white;
+    font-family: $decorative-font-family;
+    font-size: em(42);
   }
 
   p {
     color: rgba(white, 0.8);
-    font-size: em(18);
+    font-size: em(24);
   }
 }
