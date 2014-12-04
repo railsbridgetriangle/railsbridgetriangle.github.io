@@ -1,13 +1,21 @@
 .banner {
+  @include padding(9em null);
   background-image: image-url("banner.jpg");
   background-position: center;
   background-size: cover;
   color: white;
-  padding: 18em 0;
   text-align: center;
 
+  @include media($medium-screen-up) {
+    @include padding(18em null);
+  }
+
   h2 {
-    font-size: em(48);
-    font-weight: 500;
+    @include outer-container;
+    font-size: em(36);
+
+    @include media($medium-screen-up) {
+      font-size: em(48);
+    }
   }
 }

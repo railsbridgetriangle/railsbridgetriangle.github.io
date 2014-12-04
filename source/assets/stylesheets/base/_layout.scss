@@ -1,7 +1,12 @@
 body {
   @include outer-container;
   background-color: $base-background-color;
+  font-size: em(14);
   max-width: $max-width + 14em;
+
+  @include media($medium-screen-up) {
+    font-size: $base-font-size;
+  }
 }
 
 article {
@@ -10,14 +15,27 @@ article {
 
 .container {
   @include outer-container;
+  @include padding(null 1em);
+  max-width: 36em;
+
+  @include media($medium-screen-up) {
+    @include padding(null 2em);
+    max-width: $max-width
+  }
+
+  @include media($max-width-up) {
+    @include padding(null none);
+  }
 }
 
 .content {
-  @include span-columns(2);
-  @include omega(2n);
+  @include media($medium-screen-up) {
+    @include omega(2n);
+    @include span-columns(2);
+  }
 }
 
 .feature {
-  padding-top: 4em;
   background: white;
+  padding-top: 4em;
 }

@@ -1,27 +1,101 @@
 .bar {
   @include clearfix;
-  @include position(absolute, 0 0 null 0);
+  @include padding(.5em null);
+
+  @include media($medium-screen-up) {
+    @include padding(0 null);
+    @include position(absolute, 0 0 null 0);
+  }
 
   h1 {
-    color: white;
+    @include margin(1em null);
+    color: $base-accent-color;
     float: left;
     font-family: $base-font-family;
     font-size: em(18);
-    margin-top: 1em;
+
+    @include media($medium-screen-up) {
+      color: white;
+    }
 
     span {
       opacity: 0.8;
     }
   }
+}
 
-  nav {
-    float: right;
+.mobile-menu-toggle {
+  color: $medium-gray;
+  display: table;
+  float: right;
+  font-weight: 800;
+  margin-top: 1em;
+  vertical-align: middle;
+
+  &:hover, &:active, &:focus {
+    color: $base-font-color;
+
+    path {
+      fill: $base-font-color;
+    }
   }
 
-  a {
+  svg, span {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  svg {
+    margin-right: 0.25em;
+  }
+
+  path {
+    fill: $medium-gray;
+  }
+
+  @include media ($medium-screen-up) {
+    display: none;
+  }
+}
+
+.nav {
+  @include position(absolute, em(58) 0 null 0);
+  clear: both;
+  display: none;
+
+  @include media($medium-screen-up) {
+    clear: none;
+    display: block;
+    float: right;
+    position: static;
+  }
+}
+
+.nav-link {
+  background: $base-background-color;
+  border-bottom: $base-border;
+  color: $medium-gray;
+  display: block;
+  padding: 1.5em 1em;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.active {
+    color: $base-accent-color;
+    font-weight: 800;
+  }
+
+  @include media($medium-screen-up) {
+    @include padding(1em null);
+    background: none;
+    border-bottom: none;
     color: rgba(white, 0.8);
     display: inline-block;
-    padding: 1em;
 
     &:hover,
     &:focus {
@@ -31,7 +105,6 @@
     &.active {
       box-shadow: inset 0 -3px $secondary-accent-color;
       color: white;
-      font-weight: 600;
     }
   }
 }

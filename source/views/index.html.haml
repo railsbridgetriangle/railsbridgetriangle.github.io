@@ -5,13 +5,16 @@ title: Triangle RailsBridge
 .outer-container
   .bar
     .container
-      %nav
-        = link_to "About", "#", class: "active"
-        = link_to "Resources", "#"
-        = link_to "Curriculum", "#"
       %h1
         %span Triangle
         RailsBridge
+      = link_to "#", class: "mobile-menu-toggle", :data => {:role => "mobile-menu-toggle"} do
+        = partial "icons/menu"
+        %span Menu
+      %nav.nav{data: {role: "menu"}}
+        = link_to "About", "#", class: "active nav-link"
+        = link_to "Resources", "#", class: "nav-link"
+        = link_to "Curriculum", "#", class: "nav-link"
 
   .banner
     %h2 Increasing diversity in tech
@@ -25,10 +28,11 @@ title: Triangle RailsBridge
             Do you dream of someday writing software that helps people and
             improves the world?
           %p
-            Led by an all-volunteer team of seasoned, enthusiastic Ruby and Rails
-            developers, the workshop introduces women of all backgrounds to the
-            concepts, tools, and techniques of Ruby and Rails development. Our
-            audience is those with no or little programming experience.
+            Led by an all-volunteer team of seasoned, enthusiastic Ruby and
+            Rails developers, the workshop introduces women of all backgrounds
+            to the concepts, tools, and techniques of Ruby and Rails
+            development. Our audience is those with no or little programming
+            experience.
           %p
             We welcome you to the Triangle Ruby community. Whatever your goal is
             in learning to program, we hope to connect you with the tools to

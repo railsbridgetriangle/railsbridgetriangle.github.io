@@ -1,12 +1,15 @@
 .diversity {
-  @include padding(10em null);
+  @include padding(5em null);
   background-image: image-url("diversity.png");
   background-position: center;
   background-size: cover;
 
+  @include media($medium-screen-up) {
+    @include padding(10em null);
+  }
+
   h3 {
     color: white;
-    font-size: em(32);
   }
 
   p {

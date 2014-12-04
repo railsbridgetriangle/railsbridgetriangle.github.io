@@ -1,4 +1,6 @@
 .next-workshop {
+  margin-bottom: 4em;
+
   h3 {
     background-color: $base-accent-color;
     color: white;
@@ -20,6 +22,7 @@
     display: block;
     font-family: $header-font-family;
     font-size: em(20);
+    font-weight: 300;
     margin-bottom: 0.5em;
   }
 
@@ -39,6 +42,12 @@
   margin-top: 1em;
   padding: 0.5em 2em;
   position: relative;
+  text-align: center;
+  width: 100%;
+
+  @include media($medium-screen-up) {
+    width: auto;
+  }
 
   &:hover,
   &:focus {
