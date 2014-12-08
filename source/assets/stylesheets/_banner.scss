@@ -1,10 +1,14 @@
 .banner {
   @include padding(9em null);
-  background-image: image-url("banner.jpg");
+  background-image: image-url("about.jpg");
   background-position: center;
   background-size: cover;
   color: white;
   text-align: center;
+
+  .resources & {
+    background-image: image-url("resources.jpg");
+  }
 
   @include media($medium-screen-up) {
     @include padding(18em null);

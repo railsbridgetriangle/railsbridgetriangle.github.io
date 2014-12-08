@@ -1,0 +1,10 @@
+.collage {
+  @include display(flex);
+  @include flex-flow(row wrap);
+
+  img {
+    @include flex(auto);
+    @include size(250px 100%);
+    margin: 0.5vw;
+  }
+}

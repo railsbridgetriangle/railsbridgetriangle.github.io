@@ -1,6 +1,6 @@
 .bar {
   @include clearfix;
-  @include padding(.5em null);
+  @include padding(0.5em null);
 
   @include media($medium-screen-up) {
     @include padding(0 null);
@@ -9,17 +9,20 @@
 
   h1 {
     @include margin(1em null);
-    color: $base-accent-color;
     float: left;
     font-family: $base-font-family;
     font-size: em(18);
 
-    @include media($medium-screen-up) {
-      color: white;
-    }
+    a {
+      color: $base-accent-color;
 
-    span {
-      opacity: 0.8;
+      @include media($medium-screen-up) {
+        color: white;
+      }
+
+      span {
+        opacity: 0.8;
+      }
     }
   }
 }
@@ -88,7 +91,10 @@
   &:active,
   &.active {
     color: $base-accent-color;
-    background: rgba($secondary-accent-color, 0.2);
+
+    @include media($medium-screen-up) {
+      background: rgba($secondary-accent-color, 0.2);
+    }
   }
 
   @include media($medium-screen-up) {

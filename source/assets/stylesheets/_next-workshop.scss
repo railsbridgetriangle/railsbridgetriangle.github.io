@@ -1,13 +1,27 @@
-.next-workshop {
-  margin-bottom: 4em;
+$workshop-teaser-width: 30%;
 
-  h3 {
-    background-color: $base-accent-color;
-    color: white;
-    font-family: $base-font-family;
-    font-size: 1em;
-    margin-bottom: 0;
-    padding: 1em 2em;
+.next-workshop {
+  @include padding(null 0);
+  border-bottom: $base-border;
+  position: relative;
+
+  @include media($max-width-up) {
+    @include margin(8em null);
+    border-bottom: none;
+  }
+}
+
+.workshop-teaser {
+  @include position(absolute, 0 null 0 0);
+  background-image: image-url("classroom.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  width: $workshop-teaser-width;
+
+  @include media($max-width-up) {
+    display: block;
   }
 }
 
@@ -16,18 +30,43 @@
   background-color: white;
   border-left: $base-border;
   border-right: $base-border;
-  padding: 2em;
+  float: left;
+  padding: 4em 1em;
 
-  time {
-    display: block;
-    font-family: $header-font-family;
-    font-size: em(20);
-    font-weight: 300;
-    margin-bottom: 0.5em;
+  @include media($max-width-up) {
+    @include padding(null 4em);
+    margin-left: $workshop-teaser-width;
+    width: 100% - $workshop-teaser-width;
   }
 
-  p {
-    font-size: em(14);
+  .day {
+    text-transform: uppercase;
+  }
+
+  .date {
+    display: block;
+    font-family: $header-font-family;
+    font-size: em(32);
+    margin-bottom: 1em;
+  }
+
+  svg {
+    @include position(relative, em(2) null null null);
+    fill: $base-font-color;
+    float: left;
+    margin-right: 0.75em;
+  }
+
+  p,
+  address {
+    font-size: em(18);
+    margin-bottom: 2em;
+    overflow: hidden;
+  }
+
+  address {
+    color: $light-font-color;
+    font-style: normal;
   }
 }
 
@@ -39,6 +78,7 @@
   color: white;
   display: inline-block;
   float: right;
+  font-size: em(18);
   margin-top: 1em;
   padding: 0.5em 2em;
   position: relative;
@@ -58,11 +98,5 @@
   &:active {
     box-shadow: none;
     top: 1px;
-  }
-}
-
-.workshop-map {
-  iframe {
-    @include size(100% 20em);
   }
 }

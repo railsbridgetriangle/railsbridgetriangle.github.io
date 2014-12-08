@@ -31,6 +31,10 @@
     font-size: em(18);
   }
 
+  article:not(:last-child) {
+    margin-bottom: 4em;
+  }
+
   ul, ol {
     color: $light-font-color;
     font-size: em(18);

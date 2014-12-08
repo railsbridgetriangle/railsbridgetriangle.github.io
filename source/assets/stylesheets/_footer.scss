@@ -8,6 +8,10 @@ footer {
 
   a {
     font-family: $header-font-family;
-    font-size: em(24);
+    font-size: em(22);
+
+    @include media($medium-screen-up) {
+      font-size: em(24);
+    }
   }
 }

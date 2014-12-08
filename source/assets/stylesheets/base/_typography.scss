@@ -24,7 +24,7 @@ h2 {
 
 h3 {
   color: $base-accent-color;
-  font-size: em(32);
+  font-size: em(28);
   font-weight: 300;
   margin-bottom: 0.5em;
 }
@@ -42,6 +42,7 @@ h6 {
 }
 
 p {
+  font-size: em(18);
   color: $light-font-color;
   margin: 0 0 ($base-line-height * .5);
 }

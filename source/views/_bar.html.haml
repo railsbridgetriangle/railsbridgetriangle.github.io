@@ -1,8 +1,9 @@
 .bar
   .container
     %h1
-      %span Triangle
-      RailsBridge
+      = link_to "/" do
+        %span Triangle
+        RailsBridge
     = link_to "#", class: "mobile-menu-toggle", :data => {:role => "mobile-menu-toggle"} do
       = partial "views/icons/menu"
       %span Menu
