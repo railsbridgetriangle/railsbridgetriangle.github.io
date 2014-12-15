@@ -2,16 +2,50 @@ footer {
   @include padding(4em 0);
   background-color: white;
 
+  .container {
+    @include display(flex);
+    @include flex-direction(column);
+    @include justify-content(space-between);
+
+    @include media($medium-screen-up) {
+      @include align-items(center);
+      @include flex-direction(row);
+    }
+  }
+
   p {
     margin-bottom: 0;
   }
 
-  a {
+  .email {
     font-family: $header-font-family;
     font-size: em(22);
 
     @include media($medium-screen-up) {
       font-size: em(24);
+    }
+  }
+
+  .contact {
+    @include flex(1);
+    margin-bottom: 2em;
+
+    @include media($medium-screen-up) {
+      margin-bottom: 0;
+    }
+  }
+
+  .author {
+    color: lighten($medium-gray, 15%);
+
+    a {
+      color: lighten($medium-gray, 15%);
+      font-weight: 800;
+
+      &:hover,
+      &:focus {
+        color: $hover-link-color;
+      }
     }
   }
 }
