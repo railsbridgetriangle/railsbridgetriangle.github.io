@@ -2,16 +2,41 @@ footer {
   @include padding(4em 0);
   background-color: white;
 
+  .container {
+    @include align-items(center);
+    @include display(flex);
+    @include flex-direction(columns);
+    @include justify-content(space-between);
+  }
+
   p {
     margin-bottom: 0;
   }
 
-  a {
+  .email {
     font-family: $header-font-family;
     font-size: em(22);
 
     @include media($medium-screen-up) {
       font-size: em(24);
+    }
+  }
+
+  .contact {
+    @include flex(1);
+  }
+
+  .author {
+    color: lighten($medium-gray, 15%);
+
+    a {
+      color: lighten($medium-gray, 15%);
+      font-weight: 800;
+
+      &:hover,
+      &:focus {
+        color: $hover-link-color;
+      }
     }
   }
 }
