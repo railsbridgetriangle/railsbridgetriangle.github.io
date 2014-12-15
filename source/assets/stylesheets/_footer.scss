@@ -3,10 +3,14 @@ footer {
   background-color: white;
 
   .container {
-    @include align-items(center);
     @include display(flex);
-    @include flex-direction(columns);
+    @include flex-direction(column);
     @include justify-content(space-between);
+
+    @include media($medium-screen-up) {
+      @include align-items(center);
+      @include flex-direction(row);
+    }
   }
 
   p {
@@ -24,6 +28,11 @@ footer {
 
   .contact {
     @include flex(1);
+    margin-bottom: 2em;
+
+    @include media($medium-screen-up) {
+      margin-bottom: 0;
+    }
   }
 
   .author {
