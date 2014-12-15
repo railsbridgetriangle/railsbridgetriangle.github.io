@@ -1,59 +1,70 @@
 .bar {
   @include clearfix;
-  @include padding(0.5em null);
+  @include padding(1.5em null);
 
   @include media($medium-screen-up) {
     @include padding(0 null);
     @include position(absolute, 0 0 null 0);
   }
 
+  .container {
+    @include align-items(center);
+    @include display(flex);
+    @include justify-content(space-between);
+  }
+
   h1 {
-    @include margin(1em null);
-    float: left;
-    font-family: $base-font-family;
+    @include flex(1);
     font-size: em(18);
 
     a {
+      @include align-items(center);
+      @include display(flex);
       color: $base-accent-color;
+      font-weight: 900;
 
       @include media($medium-screen-up) {
         color: white;
       }
 
       span {
-        opacity: 0.8;
+        display: none;
+
+        @include media(em(375)) {
+          display: inline;
+        }
       }
+
+      span:first-of-type {
+        font-weight: 400;
+      }
+    }
+
+    svg {
+      margin-right: 1em;
     }
   }
 }
 
 .mobile-menu-toggle {
+  @include align-items(center);
+  @include display(flex);
   color: $medium-gray;
-  display: table;
-  float: right;
   font-weight: 800;
-  margin-top: 1em;
-  vertical-align: middle;
 
-  &:hover, &:active, &:focus {
+  &:hover,
+  &:active,
+  &:focus {
     color: $base-font-color;
 
-    path {
+    svg {
       fill: $base-font-color;
     }
   }
 
-  svg, span {
-    display: table-cell;
-    vertical-align: middle;
-  }
-
   svg {
-    margin-right: 0.25em;
-  }
-
-  path {
     fill: $medium-gray;
+    margin-right: 0.25em;
   }
 
   @include media ($medium-screen-up) {
@@ -62,7 +73,7 @@
 }
 
 .nav {
-  @include position(absolute, em(58) 0 null 0);
+  @include position(absolute, em(64) 0 null 0);
   clear: both;
   display: none;
 
@@ -80,22 +91,9 @@
   border-bottom: $base-border;
   color: $medium-gray;
   display: block;
+  font-family: $header-font-family;
   padding: 1.5em 1em;
-
-  &:last-child {
-    border-bottom: none;
-  }
-
-  &:hover,
-  &:focus,
-  &:active,
-  &.active {
-    color: $base-accent-color;
-
-    @include media($medium-screen-up) {
-      background: rgba($secondary-accent-color, 0.2);
-    }
-  }
+  position: relative;
 
   @include media($medium-screen-up) {
     @include padding(1em null);
@@ -104,15 +102,26 @@
     color: rgba(white, 0.8);
     display: inline-block;
 
-    &:hover,
-    &:focus {
-      color: white;
+    &::before {
+      @include position(absolute, 70% null null 50%);
+      @include transform(translateX(-50%));
+      color: transparent;
+      content: '\2022';
+      font-size: 0.75em;
+      pointer-events: none;
+      text-shadow: 0 0 transparent;
+      transition: text-shadow 0.3s, color 0.3s;
     }
 
+    &:hover,
+    &:focus,
     &.active {
-      background: $secondary-accent-color;
-      color: darken($secondary-accent-color, 35%);
-      font-weight: 800;
+      color: white;
+
+      &::before {
+        color: #fff;
+        text-shadow: 10px 0 #fff, -10px 0 #fff;
+      }
     }
   }
 }
