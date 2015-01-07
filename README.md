@@ -1,4 +1,4 @@
-# RailsbridgeTriangle
+# RailsBridge Triangle
 
 
 About Middleman
