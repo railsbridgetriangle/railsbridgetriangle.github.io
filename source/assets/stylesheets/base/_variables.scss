@@ -1,8 +1,8 @@
 // Typography
 $sans-serif: "ff-tisa-sans-web-pro", $helvetica;
-$serif: "kulturista-web", $georgia;
+$serif: $georgia;
 $base-font-family: $sans-serif;
-$header-font-family: $serif;
+$header-font-family: $base-font-family;
 $decorative-font-family: "flood-std", $base-font-family;
 
 // Sizes
