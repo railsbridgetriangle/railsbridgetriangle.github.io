@@ -1,0 +1,45 @@
+.timeline {
+  @include padding(4em null);
+  background: #fff;
+  border-bottom: $base-border;
+
+  ol:not(:last-child) {
+    margin-bottom: 4em;
+  }
+
+  li {
+    @include row;
+    margin-bottom: 3em;
+  }
+}
+
+.timeline-time {
+  border-top: $base-border;
+  display: block;
+  padding-top: 1em;
+
+  @include media($medium-screen-up) {
+    @include span-columns(1);
+    display: inline-block;
+  }
+}
+
+.timeline-description {
+  padding-top: 1em;
+
+  @include media($medium-screen-up) {
+    @include span-columns(3);
+    border-top: $base-border;
+  }
+}
+
+.timeline-date {
+  font-size: 1em;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+.timeline-title {
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}

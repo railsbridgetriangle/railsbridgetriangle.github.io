@@ -1,17 +1,29 @@
 .banner {
-  @include padding(9em null);
+  @include padding(4em null);
   background-image: image-url("about.jpg");
   background-position: center;
   background-size: cover;
   color: white;
   text-align: center;
 
+  @include media($medium-screen-up) {
+    @include padding(8em null);
+  }
+
+  .index & {
+    @include padding(9em null);
+
+    @include media($medium-screen-up) {
+      @include padding(18em null);
+    }
+  }
+
   .resources & {
     background-image: image-url("resources.jpg");
   }
 
-  @include media($medium-screen-up) {
-    @include padding(18em null);
+  .schedule & {
+    background-image: image-url("schedule.jpg");
   }
 
   h3 {
