@@ -1,0 +1,39 @@
+.sponsors {
+  @include padding(4em null 2em);
+  border-bottom: $base-border;
+
+  h3 {
+    color: #aaa;
+    font-family: $decorative-font-family;
+    font-size: em(48);
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+
+  li {
+    @include omega(2n);
+    @include span-columns(2);
+    margin-bottom: 2em;
+  }
+
+  a {
+    @include filter(grayscale(1));
+    @include transition;
+    border: 1px solid transparent;
+    display: block;
+    opacity: 0.25;
+    padding: em(20);
+
+    &:hover {
+      @include filter(grayscale(0));
+      background: white;
+      border-color: $base-border-color;
+      opacity: 1;
+    }
+  }
+
+  img {
+    @include margin(null auto);
+    display: block;
+  }
+}

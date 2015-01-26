@@ -1,6 +1,6 @@
 footer {
-  @include padding(4em 0);
-  background-color: white;
+  @include padding(4em null);
+  background-color: #fff;
 
   .container {
     @include display(flex);

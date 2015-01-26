@@ -2,24 +2,25 @@
 // http://bitters.bourbon.io
 
 // Variables
-@import 'variables';
+@import "variables";
 
 // Neat Settings -- uncomment if using Neat -- must be imported before Neat
-@import 'grid-settings';
+@import "grid-settings";
 
 // Mixins
-@import 'mixins/flash';
+@import "mixins/flash";
 
 // Extends
-@import 'extends/button';
-@import 'extends/clearfix';
-@import 'extends/hide-text';
+@import "extends/button";
+@import "extends/clearfix";
+@import "extends/hide-text";
 
 // Typography and Elements
-@import 'typography';
-@import 'forms';
-@import 'tables';
-@import 'lists';
-@import 'flashes';
-@import 'buttons';
-@import 'layout';
+@import "buttons";
+@import "flashes";
+@import "forms";
+@import "layout";
+@import "lists";
+@import "mixins";
+@import "tables";
+@import "typography";
