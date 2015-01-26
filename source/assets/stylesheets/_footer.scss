@@ -1,6 +1,7 @@
 footer {
   @include padding(4em null);
   background-color: #fff;
+  border-top: $base-border;
 
   .container {
     @include display(flex);

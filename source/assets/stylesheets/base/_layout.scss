@@ -20,6 +20,39 @@ body {
   }
 }
 
+.narrow-container {
+  @extend .container;
+  max-width: em(720);
+}
+
+.content {
+  @include media(em(720)) {
+    @include padding(4em null);
+  }
+}
+
+.content-section {
+  margin-bottom: 4em;
+}
+
+.sheet {
+  background-color: #fff;
+  padding: 1em;
+
+  @include media($medium-screen-up) {
+    border: $base-border;
+    padding:2em;
+  }
+
+  @include media($max-width-up) {
+    padding: 4em;
+  }
+
+  section {
+    margin-bottom: 4em;
+  }
+}
+
 .feature {
   @include padding(4em null);
   background: white;
@@ -27,17 +60,14 @@ body {
   @include media($medium-screen-up) {
     @include padding(8em null);
   }
+}
 
-  + .feature {
-    display: none;
+.photo-feature {
+  @extend .feature;
+  border-top: $base-border;
+  display: none;
 
-    @include media($medium-screen-up) {
-      display: block;
-      border-top: $base-border;
-    }
-  }
-
-  .resources & {
-    border-bottom: $base-border;
+  @include media($medium-screen-up) {
+    display: block;
   }
 }

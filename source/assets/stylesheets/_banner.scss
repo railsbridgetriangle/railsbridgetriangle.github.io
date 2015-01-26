@@ -26,6 +26,10 @@
     background-image: image-url("schedule.jpg");
   }
 
+  .volunteer & {
+    background-image: image-url("volunteer.jpg");
+  }
+
   h3 {
     color: white;
   }

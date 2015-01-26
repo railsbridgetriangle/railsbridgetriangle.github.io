@@ -70,33 +70,10 @@ $workshop-teaser-width: 30%;
   }
 }
 
-.workshop-rsvp {
-  @include transition(background, 0.15s);
-  background: $base-link-color;
-  border: 1px solid $hover-link-color;
-  box-shadow: 0 1px rgba(black, 0.15);
-  color: white;
-  display: inline-block;
+.workshop-actions {
   float: right;
-  font-size: em(18);
-  margin-top: 1em;
-  padding: 0.5em 2em;
-  position: relative;
-  text-align: center;
-  width: 100%;
+}
 
-  @include media($medium-screen-up) {
-    width: auto;
-  }
-
-  &:hover,
-  &:focus {
-    background: $hover-link-color;
-    color: white;
-  }
-
-  &:active {
-    box-shadow: none;
-    top: 1px;
-  }
+.workshop-rsvp {
+  @extend %button;
 }
