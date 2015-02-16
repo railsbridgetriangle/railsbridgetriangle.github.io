@@ -11,9 +11,17 @@
   }
 
   li {
-    @include omega(2n);
-    @include span-columns(2);
-    margin-bottom: 2em;
+    @include media($medium-screen-only) {
+      @include omega(2n);
+      @include span-columns(2);
+      margin-bottom: 2em;
+    }
+
+    @include media($large-screen-up) {
+      @include omega(4n);
+      @include span-columns(1);
+      margin-bottom: 2em;
+    }
   }
 
   a {
