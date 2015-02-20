@@ -10,6 +10,10 @@ set :images_dir, "assets/images"
 set :fonts_dir, "assets/fonts"
 set :layout, "layouts/application"
 
+page '/intro_to_web/example_page.html', directory_index: false
+page '/intro_to_web/example_page_with_style.html', directory_index: false
+page '/intro_to_web/example_page_with_js.html', directory_index: false
+
 configure :development do
  activate :livereload
 end
