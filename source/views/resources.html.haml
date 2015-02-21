@@ -10,6 +10,8 @@ title: Resources - RailsBridge Triangle
     %nav.resources-sidebar{data: {role: "sticky"}}
       %ul{data: {role: "waypoints"}}
         %li
+          = link_to "Talk slides", "#talks", data: {trigger: "talks"}
+        %li
           = link_to "Community", "#community", data: {trigger: "community"}
         %li
           = link_to "Install your Tools", "#install", data: {trigger: "install"}
@@ -24,6 +26,17 @@ title: Resources - RailsBridge Triangle
         %li
           = link_to "Online Classes", "#classes", data: {trigger: "online"}
     .resources-content
+      %article#talks{data: {role: "waypoint"}}
+        %h3 Talk slides
+        %p
+          %ul
+            %li
+              = link_to "Intro to Ruby", "/assets/Intro_to_Ruby.pdf"
+            %li
+              = link_to "Intro to the Web", "/intro_to_web"
+            %li
+              = link_to "Rails & MVC", "/mvc"
+
       %article#community{data: {role: "waypoint"}}
         %h3 Community
         %p
