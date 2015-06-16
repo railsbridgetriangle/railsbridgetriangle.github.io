@@ -40,4 +40,8 @@ helpers do
     options[:class] << " active" if page_url == current_url
     link_to(link_text, page_url, options)
   end
+
+  def signup_url
+    "https://www.bridgetroll.org/events/170"
+  end
 end
