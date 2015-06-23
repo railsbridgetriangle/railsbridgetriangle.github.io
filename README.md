@@ -18,17 +18,17 @@ cd railsbridgetriangle.github.io
 
 Install dependencies:
 ```
-bundle install
+bin/setup
 ```
 
 Run the server
 ```
-bundle exec middleman
+bin/server
 ```
 
 Deploy to Github Pages
 ```
-bundle exec middleman deploy
+bin/deploy
 ```
 
 Directories
