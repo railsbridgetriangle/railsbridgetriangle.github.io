@@ -1,0 +1,14 @@
+.newsletter-signup {
+  padding-top: 3em;
+
+  input[type="email"] {
+    display: inline-block;
+    max-width: 18em;
+  }
+
+  input[type="submit"] {
+    display: inline-block;
+    margin-left: 1em;
+    margin-top: 0;
+  }
+}
