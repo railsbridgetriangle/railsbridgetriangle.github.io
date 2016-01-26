@@ -12,7 +12,7 @@ title: RailsBridge Triangle
   .workshop-teaser
   .workshop-summary
     %time.day Friday and Saturday
-    %time.date= "July 24&mdash;25, 2015".html_safe
+    %time.date= event_date
     = partial "views/icons/info"
     %p
       RailsBridge workshops are a free and fun way to get started or level up
@@ -21,11 +21,11 @@ title: RailsBridge Triangle
       welcome and comfortable in our industry.
     = partial "views/icons/place"
     %address
-      American Underground Classroom at American Tobacco Campus
+      = address_line_1
       %br
-      318 Blackwell Street
+      = address_line_2
       %br
-      Durham, NC 27701
+      = address_line_3
     .workshop-actions
       = link_to "Register for Free", signup_url, class: "workshop-rsvp"
 
