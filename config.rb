@@ -42,22 +42,22 @@ helpers do
   end
 
   def signup_url
-    "https://www.bridgetroll.org/events/243"
+    "https://www.bridgetroll.org/events/258"
   end
 
   def event_date
-    "February 26&mdash;27, 2016".html_safe
+    "June 24&mdash;25, 2016".html_safe
   end
 
   def address_line_1
-    "Industrious Coworking Space"
+    "Spreedly"
   end
 
   def address_line_2
-    "555 Fayeteville St"
+    "733 Foster St."
   end
 
   def address_line_3
-    "Raleigh NC 27601"
+    "Durham NC 27701"
   end
 end
