@@ -42,22 +42,22 @@ helpers do
   end
 
   def signup_url
-    "https://www.bridgetroll.org/events/258"
+    "https://www.bridgetroll.org/events/270"
   end
 
   def event_date
-    "June 24&mdash;25, 2016".html_safe
+    "December 02&mdash;03, 2016".html_safe
   end
 
   def address_line_1
-    "Spreedly"
+    "UNC Chapel Hill Department of Computer Science - Sitterson Hall lobby"
   end
 
   def address_line_2
-    "733 Foster St."
+    "201 S. Columbia St."
   end
 
   def address_line_3
-    "Durham NC 27701"
+    "Chapel Hill NC 27599"
   end
 end
