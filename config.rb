@@ -13,6 +13,7 @@ set :layout, "layouts/application"
 page '/intro_to_web/example_page.html', directory_index: false
 page '/intro_to_web/example_page_with_style.html', directory_index: false
 page '/intro_to_web/example_page_with_js.html', directory_index: false
+page "/404.html", :directory_index => false, :layout => false # For GH pages
 
 configure :development do
  activate :livereload
