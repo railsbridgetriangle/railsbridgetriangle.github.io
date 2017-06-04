@@ -43,22 +43,22 @@ helpers do
   end
 
   def signup_url
-    "https://www.bridgetroll.org/events/340"
+    "https://www.bridgetroll.org/events/356"
   end
 
   def event_date
-    "April 21&mdash;22, 2017".html_safe
+    "August 25&mdash;26, 2017".html_safe
   end
 
   def address_line_1
-    "VitalSource"
+    "Spreedly"
   end
 
   def address_line_2
-    "227 Fayetteville St #400"
+    "733 Foster St."
   end
 
   def address_line_3
-    "Raleigh, NC 27601"
+    "Durham, NC 27701"
   end
 end
