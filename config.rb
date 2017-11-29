@@ -43,11 +43,11 @@ helpers do
   end
 
   def signup_url
-    "https://www.bridgetroll.org/events/356"
+    "https://www.bridgetroll.org/events/376"
   end
 
   def event_date
-    "August 25&mdash;26, 2017".html_safe
+    "February 16&mdash;17, 2018".html_safe
   end
 
   def address_line_1
