@@ -63,11 +63,11 @@ Before updating the website, you should add the event to Bridge Troll (the servi
 
   Since bandwidth is usually at a premium at the Installfest, please download RailsInstaller (for PCs and most Mac installations). Don't install XCode.
 
-  You can find more information on what to download by getting started with the Installfest instructions: <a href="http://docs.railsbridge.org/installfest">http://docs.railsbridge.org/installfest</a>
+  You can find more information on what to download by getting started with the Installfest instructions: <a href="http://docs.railsbridgeboston.org/installfest">http://docs.railsbridgeboston.org/installfest</a>
   ```
   * Enter the following for RSVP details sent to TAs:
   ```
-  Be sure to review the "Installfest" and "Intro To Rails" curricula available at <a href="http://docs.railsbridge.org">http://docs.railsbridge.org</a>.
+  Be sure to review the "Installfest" and "Intro To Rails" curricula available at <a href="http://docs.railsbridgeboston.org">http://docs.railsbridgeboston.org</a>.
   ```
 1. Accept the Code of Conduct and choose when to send the announcement email: ![](http://share.ryandaigle.com/jin7r-20170604104938.png)
 1. Submit the Event
