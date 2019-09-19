@@ -1,0 +1,1408 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 12, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 30, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 50, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 74, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 108, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 116, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 133, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 141, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 151, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 163, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 173, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 181, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 197, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+sup {
+  top: -0.5em; }
+
+/* line 201, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 213, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 221, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 233, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 245, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 256, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 267, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 294, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 328, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 360, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 373, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/vendor/normalize.css */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 4, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 9, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/extends/_button.scss */
+button,
+input[type="submit"], .workshop-rsvp, .volunteer-button {
+  -webkit-transition: background, 0.15s;
+  -moz-transition: background, 0.15s;
+  transition: background, 0.15s;
+  background: #5aa4ff;
+  border: 1px solid #0e7aff;
+  box-shadow: 0 1px rgba(0, 0, 0, 0.15);
+  color: white;
+  display: inline-block;
+  font-size: 1.125em;
+  margin-top: 1em;
+  padding: 0.5em 2em;
+  position: relative;
+  text-align: center;
+  width: 100%; }
+  @media screen and (min-width: 40em) {
+    /* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/extends/_button.scss */
+    button,
+    input[type="submit"], .workshop-rsvp, .volunteer-button {
+      width: auto; } }
+  /* line 19, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/extends/_button.scss */
+  button:hover,
+  input[type="submit"]:hover, .workshop-rsvp:hover, .volunteer-button:hover, button:focus,
+  input[type="submit"]:focus, .workshop-rsvp:focus, .volunteer-button:focus {
+    background: #0e7aff;
+    color: white; }
+  /* line 25, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/extends/_button.scss */
+  button:active,
+  input[type="submit"]:active, .workshop-rsvp:active, .volunteer-button:active {
+    box-shadow: none;
+    top: 1px; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_buttons.scss */
+button,
+input[type="submit"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+fieldset {
+  background: white;
+  border: 1px solid #eaeaea;
+  margin: 0 0 0.75em 0;
+  padding: 1.5em; }
+
+/* line 8, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em; }
+
+/* line 16, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+label {
+  font-weight: bold;
+  margin-bottom: 0.375em; }
+  /* line 20, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+  label.required:after {
+    content: "*"; }
+  /* line 24, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 29, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+textarea,
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
+select[multiple=multiple] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: border-color;
+  -moz-transition: border-color;
+  transition: border-color;
+  background-color: white;
+  border-radius: 0.1875em;
+  border: 1px solid #eaeaea;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em 0.5em;
+  width: 100%; }
+  /* line 44, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+  textarea:hover,
+  input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
+  select[multiple=multiple]:hover {
+    border-color: #d1d1d1; }
+  /* line 48, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+  textarea:focus,
+  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
+  select[multiple=multiple]:focus {
+    border-color: #8d5c99;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(126, 82, 137, 0.7);
+    outline: none; }
+
+/* line 55, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 59, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+/* line 63, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+input[type="checkbox"], input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+/* line 68, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+input[type="file"] {
+  margin-bottom: 0.75em;
+  padding-bottom: 0.5em;
+  width: 100%; }
+
+/* line 74, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_forms.scss */
+select {
+  width: auto;
+  max-width: 100%;
+  margin-bottom: 1.5em; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+body {
+  background-color: #f4f4f4;
+  font-size: 0.875em; }
+  @media screen and (min-width: 40em) {
+    /* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+    body {
+      font-size: 1em; } }
+
+/* line 10, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+.container, .narrow-container {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 1em;
+  padding-left: 1em; }
+  /* line 20, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-4.2.0/app/assets/stylesheets/addons/_clearfix.scss */
+  .container::after, .narrow-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 40em) {
+    /* line 10, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+    .container, .narrow-container {
+      padding-right: 2em;
+      padding-left: 2em; } }
+  @media screen and (min-width: 68em) {
+    /* line 10, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+    .container, .narrow-container {
+      padding-right: none;
+      padding-left: none; } }
+
+/* line 23, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+.narrow-container {
+  max-width: 45em; }
+
+@media screen and (min-width: 45em) {
+  /* line 28, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+  .content {
+    padding-top: 4em;
+    padding-bottom: 4em; } }
+
+/* line 34, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+.content-section {
+  margin-bottom: 4em; }
+
+/* line 38, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+.sheet {
+  background-color: #fff;
+  padding: 1em; }
+  @media screen and (min-width: 40em) {
+    /* line 38, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+    .sheet {
+      border: 1px solid #eaeaea;
+      padding: 2em; } }
+  @media screen and (min-width: 68em) {
+    /* line 38, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+    .sheet {
+      padding: 4em; } }
+  /* line 51, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+  .sheet section {
+    margin-bottom: 4em; }
+
+/* line 56, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+.feature, .photo-feature {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background: white; }
+  @media screen and (min-width: 40em) {
+    /* line 56, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+    .feature, .photo-feature {
+      padding-top: 8em;
+      padding-bottom: 8em; } }
+
+/* line 65, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+.photo-feature {
+  border-top: 1px solid #eaeaea;
+  display: none; }
+  @media screen and (min-width: 40em) {
+    /* line 65, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_layout.scss */
+    .photo-feature {
+      display: block; } }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_lists.scss */
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+  /* line 6, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_lists.scss */
+  .resources-content ul {
+    list-style-type: disc;
+    margin-bottom: 0.75em;
+    padding-left: 1.5em; }
+  /* line 12, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_lists.scss */
+  .resources-content ol {
+    list-style-type: decimal;
+    margin-bottom: 0.75em;
+    padding-left: 1.5em; }
+
+/* line 19, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_lists.scss */
+dl {
+  margin-bottom: 0.75em; }
+  /* line 22, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_lists.scss */
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  /* line 27, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_tables.scss */
+table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 8, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_tables.scss */
+th {
+  border-bottom: 1px solid #c4c4c4;
+  font-weight: bold;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 15, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_tables.scss */
+td {
+  border-bottom: 1px solid #eaeaea;
+  padding: 0.75em 0; }
+
+/* line 20, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_tables.scss */
+tr, td, th {
+  vertical-align: middle; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+body {
+  -webkit-font-smoothing: antialiased;
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 10, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  line-height: 1.25em;
+  margin: 0;
+  text-rendering: optimizeLegibility; }
+
+/* line 17, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+h1 {
+  font-size: 2.25em; }
+
+/* line 21, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+h2 {
+  font-size: 2em; }
+
+/* line 25, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+h3 {
+  color: #8d5c99;
+  font-size: 1.75em;
+  font-weight: 300;
+  margin-bottom: 0.5em; }
+
+/* line 32, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+h4 {
+  font-size: 1.5em; }
+
+/* line 36, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+h5 {
+  font-size: 1.25em; }
+
+/* line 40, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+h6 {
+  font-size: 1em; }
+
+/* line 44, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+p {
+  font-size: 1.125em;
+  color: rgba(51, 51, 51, 0.7);
+  margin: 0 0 0.75em; }
+
+/* line 50, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+a {
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear;
+  color: #5aa4ff;
+  text-decoration: none; }
+  /* line 55, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+  a:hover {
+    color: #0e7aff; }
+  /* line 59, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+  a:active, a:focus {
+    color: #0e7aff;
+    outline: none; }
+
+/* line 65, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #eaeaea;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+/* line 73, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+img {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 78, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+blockquote {
+  border-left: 2px solid #eaeaea;
+  color: #595959;
+  margin: 1.5em 0;
+  padding-left: 0.75em; }
+
+/* line 85, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+cite {
+  color: #737373;
+  font-style: italic; }
+  /* line 89, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/base/_typography.scss */
+  cite:before {
+    content: '\2014 \00A0'; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_banner.scss */
+.banner {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background-image: url("../images/about.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center; }
+  @media screen and (min-width: 40em) {
+    /* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_banner.scss */
+    .banner {
+      padding-top: 8em;
+      padding-bottom: 8em; } }
+  /* line 13, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_banner.scss */
+  .index .banner {
+    padding-top: 9em;
+    padding-bottom: 9em; }
+    @media screen and (min-width: 40em) {
+      /* line 13, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_banner.scss */
+      .index .banner {
+        padding-top: 18em;
+        padding-bottom: 18em; } }
+  /* line 21, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_banner.scss */
+  .resources .banner {
+    background-image: url("../images/resources.jpg"); }
+  /* line 25, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_banner.scss */
+  .schedule .banner {
+    background-image: url("../images/schedule.jpg"); }
+  /* line 29, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_banner.scss */
+  .volunteer .banner {
+    background-image: url("../images/volunteer.jpg"); }
+  /* line 33, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_banner.scss */
+  .banner h3 {
+    color: white; }
+  /* line 37, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_banner.scss */
+  .banner h2 {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "flood-std", "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 2.25em; }
+    /* line 20, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-4.2.0/app/assets/stylesheets/addons/_clearfix.scss */
+    .banner h2::after {
+      clear: both;
+      content: "";
+      display: table; }
+    @media screen and (min-width: 40em) {
+      /* line 37, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_banner.scss */
+      .banner h2 {
+        font-size: 3.875em; } }
+
+/* line 3, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+.bar {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em; }
+  /* line 20, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-4.2.0/app/assets/stylesheets/addons/_clearfix.scss */
+  .bar::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 50.875em) {
+    /* line 3, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+    .bar {
+      padding-top: 0;
+      padding-bottom: 0;
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0; } }
+  /* line 12, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+  .bar .container, .bar .narrow-container {
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify; }
+  /* line 18, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+  .bar h1 {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 1.125em; }
+    /* line 22, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+    .bar h1 a {
+      -webkit-box-align: center;
+      -moz-box-align: center;
+      box-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      -o-align-items: center;
+      align-items: center;
+      -ms-flex-align: center;
+      display: -webkit-box;
+      display: -moz-box;
+      display: box;
+      display: -webkit-flex;
+      display: -moz-flex;
+      display: -ms-flexbox;
+      display: flex;
+      color: #8d5c99;
+      font-weight: 900; }
+      @media screen and (min-width: 50.875em) {
+        /* line 22, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+        .bar h1 a {
+          color: white; } }
+      /* line 32, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+      .bar h1 a span {
+        display: none; }
+        @media screen and (min-width: 23.4375em) {
+          /* line 32, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+          .bar h1 a span {
+            display: inline; } }
+      /* line 40, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+      .bar h1 a span:first-of-type {
+        font-weight: 400; }
+    /* line 45, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+    .bar h1 svg {
+      margin-right: 1em; }
+
+/* line 51, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+.mobile-menu-toggle {
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  box-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  color: #999;
+  font-weight: 800; }
+  /* line 57, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+  .mobile-menu-toggle:hover, .mobile-menu-toggle:active, .mobile-menu-toggle:focus {
+    color: #333; }
+    /* line 62, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+    .mobile-menu-toggle:hover svg, .mobile-menu-toggle:active svg, .mobile-menu-toggle:focus svg {
+      fill: #333; }
+  /* line 67, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+  .mobile-menu-toggle svg {
+    fill: #999;
+    margin-right: 0.25em; }
+  @media screen and (min-width: 50.875em) {
+    /* line 51, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+    .mobile-menu-toggle {
+      display: none; } }
+
+/* line 77, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+.nav {
+  position: absolute;
+  top: 4em;
+  right: 0;
+  left: 0;
+  clear: both;
+  display: none; }
+  @media screen and (min-width: 50.875em) {
+    /* line 77, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+    .nav {
+      clear: none;
+      display: block;
+      float: right;
+      position: static; } }
+
+/* line 90, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+.nav-link {
+  -webkit-transition: background, 0.15s;
+  -moz-transition: background, 0.15s;
+  transition: background, 0.15s;
+  background: #f4f4f4;
+  border-bottom: 1px solid #eaeaea;
+  color: #999;
+  display: block;
+  font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  padding: 1.5em 1em;
+  position: relative; }
+  @media screen and (min-width: 40em) {
+    /* line 90, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+    .nav-link {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      background: none;
+      border-bottom: none;
+      color: rgba(255, 255, 255, 0.8);
+      display: inline-block; }
+      /* line 107, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+      .nav-link::before {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        color: transparent;
+        content: '\2022';
+        font-size: 0.75em;
+        pointer-events: none;
+        text-shadow: 0 0 transparent;
+        transition: text-shadow 0.3s, color 0.3s; }
+      /* line 118, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+      .nav-link:hover, .nav-link:focus, .nav-link.active {
+        color: white; }
+        /* line 123, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_bar.scss */
+        .nav-link:hover::before, .nav-link:focus::before, .nav-link.active::before {
+          color: #fff;
+          text-shadow: 10px 0 #fff, -10px 0 #fff; } }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_collage.scss */
+.collage {
+  display: -webkit-box;
+  display: -moz-box;
+  display: box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -moz-flex-flow: row wrap;
+  flex-flow: row wrap; }
+  /* line 5, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_collage.scss */
+  .collage img {
+    -webkit-box-flex: auto;
+    -moz-box-flex: auto;
+    box-flex: auto;
+    -webkit-flex: auto;
+    -moz-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    height: 100%;
+    width: 250px;
+    margin: 0.5vw; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_diversity.scss */
+.diversity {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-image: url("../images/diversity.png");
+  background-position: center;
+  background-size: cover; }
+  @media screen and (min-width: 40em) {
+    /* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_diversity.scss */
+    .diversity {
+      padding-top: 10em;
+      padding-bottom: 10em; } }
+  /* line 11, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_diversity.scss */
+  .diversity h3 {
+    color: white;
+    font-family: "flood-std", "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-align: center; }
+  /* line 19, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_diversity.scss */
+  .diversity p {
+    margin-right: auto;
+    margin-left: auto;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.5em;
+    max-width: 31.66667em; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+footer {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background-color: #fff;
+  border-top: 1px solid #eaeaea; }
+  /* line 6, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+  footer .container, footer .narrow-container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+    justify-content: space-between;
+    -ms-flex-pack: justify; }
+    @media screen and (min-width: 40em) {
+      /* line 6, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+      footer .container, footer .narrow-container {
+        -webkit-box-align: center;
+        -moz-box-align: center;
+        box-align: center;
+        -webkit-align-items: center;
+        -moz-align-items: center;
+        -ms-align-items: center;
+        -o-align-items: center;
+        align-items: center;
+        -ms-flex-align: center;
+        -webkit-box-orient: horizontal;
+        -moz-box-orient: horizontal;
+        box-orient: horizontal;
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-direction: row; } }
+  /* line 17, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+  footer p {
+    margin-bottom: 0; }
+  /* line 21, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+  footer .email {
+    font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 1.375em; }
+    @media screen and (min-width: 40em) {
+      /* line 21, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+      footer .email {
+        font-size: 1.5em; } }
+  /* line 30, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+  footer .contact {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-bottom: 2em; }
+    @media screen and (min-width: 40em) {
+      /* line 30, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+      footer .contact {
+        margin-bottom: 0; } }
+  /* line 39, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+  footer .author {
+    color: #bfbfbf; }
+    /* line 42, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+    footer .author a {
+      color: #bfbfbf;
+      font-weight: 800; }
+      /* line 46, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_footer.scss */
+      footer .author a:hover, footer .author a:focus {
+        color: #0e7aff; }
+
+/* line 3, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+.next-workshop {
+  padding-right: 0;
+  padding-left: 0;
+  border-bottom: 1px solid #eaeaea;
+  position: relative; }
+  @media screen and (min-width: 68em) {
+    /* line 3, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+    .next-workshop {
+      margin-top: 8em;
+      margin-bottom: 8em;
+      border-bottom: none; } }
+
+/* line 14, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+.workshop-teaser {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("../images/group.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none;
+  width: 30%; }
+  @media screen and (min-width: 68em) {
+    /* line 14, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+    .workshop-teaser {
+      display: block; } }
+
+/* line 28, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+.workshop-summary {
+  background-color: white;
+  border-left: 1px solid #eaeaea;
+  border-right: 1px solid #eaeaea;
+  float: left;
+  padding: 4em 1em; }
+  /* line 20, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-4.2.0/app/assets/stylesheets/addons/_clearfix.scss */
+  .workshop-summary::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 68em) {
+    /* line 28, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+    .workshop-summary {
+      padding-right: 4em;
+      padding-left: 4em;
+      margin-left: 30%;
+      width: 70%; } }
+  /* line 42, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+  .workshop-summary .day {
+    text-transform: uppercase; }
+  /* line 46, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+  .workshop-summary .date {
+    display: block;
+    font-family: "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 2em;
+    margin-bottom: 1em; }
+  /* line 53, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+  .workshop-summary svg {
+    position: relative;
+    top: 0.125em;
+    fill: #333;
+    float: left;
+    margin-right: 0.75em; }
+  /* line 60, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+  .workshop-summary p,
+  .workshop-summary address {
+    font-size: 1.125em;
+    margin-bottom: 2em;
+    overflow: hidden; }
+  /* line 67, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+  .workshop-summary address {
+    color: rgba(51, 51, 51, 0.7);
+    font-style: normal; }
+
+/* line 73, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+.workshop-actions {
+  float: right; }
+  /* line 76, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_next-workshop.scss */
+  .workshop-actions .volunteer {
+    margin-top: 20px;
+    text-align: center; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_newsletter-signup.scss */
+.newsletter-signup {
+  padding-top: 3em; }
+  /* line 4, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_newsletter-signup.scss */
+  .newsletter-signup input[type="email"] {
+    display: inline-block;
+    max-width: 18em; }
+  /* line 9, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_newsletter-signup.scss */
+  .newsletter-signup input[type="submit"] {
+    display: inline-block;
+    margin-left: 1em;
+    margin-top: 0; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_sponsors.scss */
+.sponsors {
+  padding-top: 4em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #eaeaea; }
+  /* line 5, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_sponsors.scss */
+  .sponsors h3 {
+    color: #aaa;
+    font-family: "flood-std", "ff-tisa-sans-web-pro", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    text-align: center; }
+  @media screen and (min-width: 40em) and (max-width: 53.6875em) {
+    /* line 13, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_sponsors.scss */
+    .sponsors li {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 46.28851%;
+      margin-bottom: 2em; }
+      /* line 78, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
+      .sponsors li:nth-child(2n) {
+        margin-right: 0; }
+      /* line 83, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
+      .sponsors li:nth-child(2n+1) {
+        clear: left; }
+      /* line 87, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+      .sponsors li:last-child {
+        margin-right: 0; } }
+  @media screen and (min-width: 53.75em) {
+    /* line 13, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_sponsors.scss */
+    .sponsors li {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 19.43277%;
+      margin-bottom: 2em; }
+      /* line 78, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
+      .sponsors li:nth-child(4n) {
+        margin-right: 0; }
+      /* line 83, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
+      .sponsors li:nth-child(4n+1) {
+        clear: left; }
+      /* line 87, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+      .sponsors li:last-child {
+        margin-right: 0; } }
+  /* line 27, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_sponsors.scss */
+  .sponsors a {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    -webkit-transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    transition: all 0.15s ease-out 0s;
+    border: 1px solid transparent;
+    display: block;
+    opacity: 0.25;
+    padding: 1.25em; }
+    /* line 35, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_sponsors.scss */
+    .sponsors a:hover {
+      -webkit-filter: grayscale(0);
+      filter: grayscale(0);
+      background: white;
+      border-color: #eaeaea;
+      opacity: 1; }
+  /* line 43, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_sponsors.scss */
+  .sponsors img {
+    margin-right: auto;
+    margin-left: auto;
+    display: block; }
+
+/* line 5, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_volunteer.scss */
+.volunteer-actions {
+  text-align: center; }
+
+/* line 2, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_about.scss */
+.about section {
+  margin-bottom: 4em; }
+  @media screen and (min-width: 40em) {
+    /* line 2, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_about.scss */
+    .about section {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 46.28851%;
+      margin-bottom: 0; }
+      /* line 78, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
+      .about section:nth-child(2n) {
+        margin-right: 0; }
+      /* line 83, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_omega.scss */
+      .about section:nth-child(2n+1) {
+        clear: left; }
+      /* line 87, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+      .about section:last-child {
+        margin-right: 0; } }
+  /* line 11, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_about.scss */
+  .about section h3 {
+    margin-bottom: 0.5em; }
+  /* line 15, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_about.scss */
+  .about section p {
+    margin-bottom: 1em; }
+    /* line 18, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_about.scss */
+    .about section p:last-child {
+      margin-bottom: 0; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_resources.scss */
+.sticky-wrapper {
+  display: none; }
+  @media screen and (min-width: 40em) {
+    /* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_resources.scss */
+    .sticky-wrapper {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 19.43277%; }
+      /* line 87, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+      .sticky-wrapper:last-child {
+        margin-right: 0; } }
+
+/* line 10, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_resources.scss */
+.resources-sidebar a {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  color: #ccc;
+  display: block;
+  font-weight: 800; }
+  /* line 16, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_resources.scss */
+  .resources-sidebar a:hover, .resources-sidebar a:focus, .resources-sidebar a:active, .resources-sidebar a.active {
+    color: #333; }
+
+@media screen and (min-width: 40em) {
+  /* line 25, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_resources.scss */
+  .resources-content {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 73.14426%; }
+    /* line 87, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+    .resources-content:last-child {
+      margin-right: 0; } }
+/* line 30, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_resources.scss */
+.resources-content p {
+  font-size: 1.125em; }
+/* line 34, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_resources.scss */
+.resources-content article:not(:last-child) {
+  margin-bottom: 4em; }
+/* line 38, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_resources.scss */
+.resources-content ul, .resources-content ol {
+  color: rgba(51, 51, 51, 0.7);
+  font-size: 1.125em; }
+
+/* line 1, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_schedule.scss */
+.timeline {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  background: #fff;
+  border-bottom: 1px solid #eaeaea; }
+  /* line 6, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_schedule.scss */
+  .timeline ol:not(:last-child) {
+    margin-bottom: 4em; }
+  /* line 10, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_schedule.scss */
+  .timeline li {
+    display: block;
+    margin-bottom: 3em; }
+    /* line 20, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/bourbon-4.2.0/app/assets/stylesheets/addons/_clearfix.scss */
+    .timeline li::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+/* line 16, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_schedule.scss */
+.timeline-time {
+  border-top: 1px solid #eaeaea;
+  display: block;
+  padding-top: 1em; }
+  @media screen and (min-width: 40em) {
+    /* line 16, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_schedule.scss */
+    .timeline-time {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 19.43277%;
+      display: inline-block; }
+      /* line 87, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+      .timeline-time:last-child {
+        margin-right: 0; } }
+
+/* line 27, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_schedule.scss */
+.timeline-description {
+  padding-top: 1em; }
+  @media screen and (min-width: 40em) {
+    /* line 27, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_schedule.scss */
+    .timeline-description {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 73.14426%;
+      border-top: 1px solid #eaeaea; }
+      /* line 87, /Users/ekaunitz/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/neat-1.7.1/app/assets/stylesheets/grid/_span-columns.scss */
+      .timeline-description:last-child {
+        margin-right: 0; } }
+
+/* line 36, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_schedule.scss */
+.timeline-date {
+  font-size: 1em;
+  font-weight: 800;
+  margin-bottom: 1em; }
+
+/* line 42, /Users/ekaunitz/railsbridgetriangle.github.io/source/assets/stylesheets/_schedule.scss */
+.timeline-title {
+  font-size: 1.25em;
+  margin-bottom: 1em; }
