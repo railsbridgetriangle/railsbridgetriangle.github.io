@@ -43,19 +43,19 @@ helpers do
   end
 
   def signup_url
-    "https://www.bridgetroll.org/events/490"
+    "https://www.bridgetroll.org/events/502"
   end
 
   def event_date
-    "October 18&mdash;19, 2019".html_safe
+    "March 20th&mdash;21st, 2020".html_safe
   end
 
   def address_line_1
-    "hub1789"
+    "Propellers, Inc."
   end
 
   def address_line_2
-    "173 1/2 East Franklin Street"
+    "4364 S. Alston Ave, Ste. 300"
   end
 
   def address_line_3
