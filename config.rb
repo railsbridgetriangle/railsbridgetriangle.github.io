@@ -59,6 +59,6 @@ helpers do
   end
 
   def address_line_3
-    "Chapel Hill, NC 27514"
+    "Durham, NC 27713"
   end
 end
